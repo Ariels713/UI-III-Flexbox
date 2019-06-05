@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .container {
     display: flex;
     flex-flow: column wrap;
-    border: solid 10px goldenrod;
+    /* border: solid 10px goldenrod; */
 
 }
 
@@ -177,17 +177,41 @@ button:hover {
 .fun_facts {
     display: flex;
     flex-flow: column wrap;
-    height: 600px;
+    height: 500px;
 }
 .fun_f h2 {
     margin-left: 100px;
 }
 
-.bottom_paragraph {
+.bottom_paragraph{
     width: 450px;
+    /* border: solid 2px red; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
 
-img .services-info-img{
-    width: 400px
-    height: 400px;
+.services-info-img {
+    max-width: 46%;
+    height: 350px;
+    margin-top: 25px;
+    /* border: solid 2px red; */
+
+}
+
+.header_list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 50px;
+    line-height: 40px;
+    list-style-type: square;
+
+}
+
+/* copy right */
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
 }
