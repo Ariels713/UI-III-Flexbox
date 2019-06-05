@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	width: auto;
+	border: solid 10px goldenrod;
+
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	border: solid 3px rebeccapurple;
+	justify-content: space-between
+}
+/* Navigation Style begins */
+
+
