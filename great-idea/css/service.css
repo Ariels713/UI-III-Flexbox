@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 .container {
     display: flex;
     flex-flow: column wrap;
+    width: 960px;
     /* border: solid 10px goldenrod; */
 
 }
