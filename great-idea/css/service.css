@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 960px;
+    /* border: solid 10px goldenrod; */
+
+}
+
+/* Navigation Style begins */
+.navigation {
+    display: flex;
+    height: 80px;
+    /* border: solid 3px purple; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems a{
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: lightslategrey;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-right: 29px;
+}
+
+/* Main header Photo */
+.services-header-img {
+    width: 95%;
+    margin-left: 21px;
+}
+
+/* Our Services styles begin */
+.our_services {
+    display: flex;
+    flex: row wrap;
+    /* border: solid 3px purple; */
+    height: 100px;
+    width: 95%;
+    margin-left: 21px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.services p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+/* main content style begins */
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: solid 5px brown; */
+    height: 1100px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: dimgray;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.main_content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    color: black;
+}
+
+.main_content .digital_design {
+    border: solid 1px black;
+    width: 450px;
+    height: 350px;
+    background: snow;
+    margin-left: 18px;
+}
+
+button {
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius:
+}
+
+button:hover {
+    color: red;
+}
+
+/* bottom header styles */
+
+.fun_facts {
+    display: flex;
+    flex-flow: column wrap;
+    height: 500px;
+}
+.fun_f h2 {
+    margin-left: 100px;
+}
+
+.bottom_paragraph{
+    width: 450px;
+    /* border: solid 2px red; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.services-info-img {
+    max-width: 46%;
+    height: 350px;
+    margin-top: 25px;
+    /* border: solid 2px red; */
+
+}
+
+.header_list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 50px;
+    line-height: 40px;
+    list-style-type: square;
+
+}
+
+/* copy right */
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}

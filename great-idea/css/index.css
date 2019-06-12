@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,129 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 960px;
+	border: solid 10px goldenrod;
+
+}
+/* Navigation Style begins */
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 960px;
+	height: 60px;
+	/* border: solid 3px rebeccapurple; */
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navItems a {
+	text-decoration: none;
+	padding: 20px;
+	color: #b3b4b5;
+	font-size: 18px;
+}
+
+/* head style begins */
+.secondary_header {
+	display: flex;
+	flex-flow: column wrap;
+	width: 960px;
+	height: 500px;
+	/* border: solid 3px red; */
+	justify-content: center;
+	align-content: space-around;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.in_on_demand {
+	font-size: 70px;
+	text-align: center;
+}
+
+.round_picture {
+	width: 400px;
+	height: 400px;
+
+}
+
+button {
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	border: solid 1px black;
+}
+
+/* main content */
+
+.main_content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 960px;
+	height: 120px;
+	/* border: solid 2px red; */
+	align-content: space-around;
+}
+
+.main_content_paragraph {
+	width: 400px;
+
+}
+/* center image styling */
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 860px;;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+/* bottom content styling */
+
+.bottom_content {
+	display: flex;
+	flex-flow: column wrap;
+	width: 960px;
+	height: 200px;
+	align-content: space-around;
+}
+
+h3 {
+	width: 250px;
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+
+}
+
+p {
+	width: 250px;
+	align-items: center;
+}
+
+
+/* contact us Styling */
+.contact_us {
+	display: flex;
+	flex-flow: column wrap;
+	width: 860px;
+	height: 130px;
+	justify-content: flex-start;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+/* copy_right */
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
